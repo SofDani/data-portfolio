@@ -28,4 +28,31 @@ csv-cleaning/
 **1. Клонирайте или свалете репозиторито**
 ```bash
 git clone https://github.com/<SofDani>/data-portfolio.git
-cd data-portfolio/projects/csv-cleaning
+cd data-portfolio/projects/csv-cleaningcd data-portfolio/projects/csv-cleaning
+
+2. Инсталирайте
+pip install pandas numpy
+
+3. Стартирайте скрипта
+python scripts/clean_pandas.py
+
+Input:
+order_id,customer_name,product,price,order_date
+1, John Doe ,Dog Toy,12.5,2024-11-01
+2,Jane Smith,Cat Toy,9.99,2024-11-02
+3,John Doe,Dog Toy,12.5,2024-11-01
+4, ,Baby Blanket,25.00,\N
+5,Maria Ivanova,Pacifier,5.5,2024-10-30
+
+Output:
+order_id     customer_name          product  price order_date
+0         1          John Doe       Dog Toy  12.50 2024-11-01
+1         2        Jane Smith       Cat Toy   9.99 2024-11-02
+2         3          John Doe       Dog Toy  12.50 2024-11-01
+3         4  Unknown Customer  Baby Blanket  25.00 2024-11-01
+4         5     Maria Ivanova      Pacifier   5.50 2024-10-30
+
+
+Автор: Даниел Василев Колчаков
+📧 Email: danielkolchakov97@gmail.com
+🔗 LinkedIn: daniel-kolchakov-799361182

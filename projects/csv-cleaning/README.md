@@ -28,6 +28,7 @@ csv-cleaning/
 **1. Клонирайте или свалете репозиторито**
 ```bash
 git clone https://github.com/<SofDani>/data-portfolio.git
+cd data-portfolio/projects/csv-cleaning
 
 2. Инсталирайте
 pip install pandas numpy

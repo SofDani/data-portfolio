@@ -1,0 +1,6 @@
+order_id,customer_name,product,price,order_date
+1, John Doe ,Dog Toy,12.5,11/1/2024
+2,Jane Smith,Cat Toy,9.99,11/2/2024
+3,John Doe,Dog Toy,12.5,11/1/2024
+4, ,Baby Blanket,25,\N
+5,Maria Ivanova,Pacifier,5.5,10/30/2024

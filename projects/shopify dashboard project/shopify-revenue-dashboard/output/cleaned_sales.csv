@@ -1,0 +1,6 @@
+order_id,order_date,total_price,currency,customer_id,product_id,product_name,quantity,source,discount_code
+1001,2024-11-01,45.5,USD,C001,P1001,Dog Toy,1,organic,SPRING10
+1002,2024-11-01,65.0,USD,C002,P1002,Dog Bed,1,google,
+1003,2024-11-02,9.99,USD,C003,P1003,Cat Toy,1,facebook,
+1004,2024-11-02,120.0,USD,C001,P1004,Deluxe Bundle,2,organic,WLN
+1005,2024-11-03,25.0,USD,guest,P1005,Baby Blanket,1,shopify,

@@ -1,0 +1,6 @@
+"order_id,customer_name,product,price,order_date",,,,
+"1, John Doe ,Dog Toy,12.5,2024-11-01",,,,
+"2,Jane Smith,Cat Toy,9.99,2024-11-02",,,,
+"3,John Doe,Dog Toy,12.5,2024-11-01",,,,
+"4, ,Baby Blanket,25.00,\N",,,,
+"5,Maria Ivanova,Pacifier,5.5,2024-10-30",,,,

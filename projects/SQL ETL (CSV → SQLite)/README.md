@@ -15,3 +15,19 @@
 ## Как да включите в портфолио
 - Кратко описание: „ETL pipeline (CSV → SQLite) with normalization and reporting“
 - Включете `queries/reports.sql` и кратки снимки/CSV резултати.
+
+
+
+-- sample queries you can run in sqlite3 or DB browser
+-- 1) Monthly revenue
+SELECT strftime('%Y-%m', o.order_date) AS month, SUM(oi.line_total) as revenue
+FROM orders o
+JOIN order_items oi USING(order_id)
+GROUP BY month;
+
+-- 2) Top products
+SELECT p.product_name, SUM(oi.line_total) as revenue
+FROM order_items oi
+LEFT JOIN dim_products p ON p.product_id = oi.product_id
+GROUP BY p.product_name
+ORDER BY revenue DESC;

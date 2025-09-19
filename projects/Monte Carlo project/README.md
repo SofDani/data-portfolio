@@ -1,7 +1,7 @@
 # Monte Carlo Stock Price Simulation
 
 ## Overview
-A comprehensive Monte Carlo simulation framework for financial risk analysis and stock price forecasting. This project demonstrates advanced quantitative techniques applied to Bank Uralsib historical trading data spanning 3 years(2022-2024)
+A comprehensive Monte Carlo simulation framework for financial risk analysis and stock price forecasting. This project demonstrates advanced quantitative techniques applied to Bank Uralsib historical trading data spanning 3 years(2022-2024).
 
 ##Features
 - Monte Carlo Simulation: 1000 price path simulations over 252 trading days

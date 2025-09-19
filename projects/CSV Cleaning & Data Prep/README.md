@@ -1,39 +1,39 @@
 # CSV Cleaning — Enhanced Demo Project
 
-## 🎯 Цел на проекта
-Този проект демонстрира **пълно почистване на CSV dataset** с помощта на Python (pandas & numpy).  
-Скриптът автоматизира основните стъпки при обработка на сурови данни:  
-- премахване на излишни интервали и празни стойности  
-- замяна на специални null маркери (`\N`, `NA`, празни полета)  
-- конвертиране на типове данни (дата, цена)  
-- запълване на липсващи стойности с дефолти или най-често срещаните  
-- премахване на дубликати и ресет на индекса  
+## 🎯 Project goal
+This project demonstrates complete cleaning of a CSV dataset using Python(pandas & numpy).
+The script automates the main steps in raw data processing:
+    - Removing extra spaces and empty values
+    - Replacing evaluated null markers(\N, NA, empty fields)
+    - Converting data types(data,price)
+    - Filling missing values with defaults or the most common ones
+    - Removing Post and resetting the index
 
-## 🛠 Използвани технологии
-- **Python 3**  
-- **pandas** — манипулация на данни  
-- **numpy** — работа с null стойности  
+##  Technologies used
+- Python 3   
+- pandas - data manipulation
+- numpy -  working with null values
 
-## 📂 Структура на проекта
+## Project structure
 csv-cleaning/
-├─ input_sample.csv # примерни сурови данни
-├─ cleaned_orders.csv # почистени данни (output)
-├─ scripts/
-│ └─ clean_dataset.py # основен Python скрипт за почистване
-└─ README.md # документация (този файл)
+- input_sample.csv # sample raw data
+- cleaned_orders.csv # cleaned data (output)
+- scripts/
+     clean_dataset.py # basic Python script
+         README.md # documentation
 
 
-## ▶️ Как да стартирате скрипта
+## How to start the script
 
-**1. Клонирайте или свалете репозиторито**
+1. Clone or download the repository
 ```bash
 git clone https://github.com/<SofDani>/data-portfolio.git
 cd data-portfolio/projects/csv-cleaning
 
-2. Инсталирайте
+2. Install
 pip install pandas numpy
 
-3. Стартирайте скрипта
+3. Run the script
 python scripts/clean_pandas.py
 
 Input:
@@ -53,6 +53,6 @@ order_id     customer_name          product  price order_date
 4         5     Maria Ivanova      Pacifier   5.50 2024-10-30
 
 
-Автор: Даниел Василев Колчаков
-📧 Email: danielkolchakov97@gmail.com
-🔗 LinkedIn: daniel-kolchakov-799361182
+Author: Daniel Kolchakov
+ Email: danielkolchakov97@gmail.com
+ LinkedIn: daniel-kolchakov-799361182

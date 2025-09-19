@@ -1,16 +1,16 @@
 # SQL ETL demo (SQLite)
 
-## Какво показва проектът
-- Как да импортираш CSV в SQLite (staging tables)
-- Как да нормализираш/трансформираш (orders, order_items)
-- Как да изкараш стандартни отчети (monthly revenue, top products)
-- Всичко е offline — генерира CSV репорти за dashboard
+## What the project shows
+- How to import CSV into SQLite (staging tables)
+- How to normalize/transform(orders, order_items)
+- How to run standard reports(monthly revenue, top products)
+- Everything is offline - generates CSV reports for dashboard
 
-## Как да стартирате
-1. Отидете в `projects/sql-etl`.
-2. Инсталирайте pandas: `pip install pandas`.
-3. Стартирайте: `python scripts/load_and_transform.py`.
-4. Резултати: `data.db` (SQLite file), `monthly_revenue.csv`, `top_products.csv`.
+## How to start
+1. Go to `projects/sql-etl`.
+2. Install pandas: `pip install pandas`.
+3. Start: `python scripts/load_and_transform.py`.
+4. Results: `data.db` (SQLite file), `monthly_revenue.csv`, `top_products.csv`.
 
 
 

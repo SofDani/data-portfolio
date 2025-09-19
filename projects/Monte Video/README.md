@@ -7,6 +7,7 @@ A comprehensive Monte Carlo simulation framework for financial risk analysis and
 - Monte Carlo Simulation: 1000 price path simulations over 252 trading days
 - Risk Metrics: CAGR calculation (14.05%), volatility analysis(244.22%)
 - Data Visualization: Price trajectory plots and distribution histograms
+- Comprehensive Documentation: Theoretical background and implementation details
 
 
 ## Technologies Used
